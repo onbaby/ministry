@@ -6,7 +6,7 @@ import { Briefcase, Home, Users, GraduationCap, Wallet, Heart } from "lucide-rea
 import AnimatedSection from "@/components/animated-section"
 
 export const metadata = {
-  title: "Our Programs - Faith & Work Ministry",
+  title: "Our Programs - 007 Ministry",
   description: "Learn about our job training, housing support, and mentorship programs for young men.",
 }
 
@@ -27,15 +27,8 @@ export default function ProgramsPage() {
         <div className="space-y-12">
           {/* Job Training Program */}
           <AnimatedSection animation="slide-up">
-            <div className="relative rounded-xl overflow-hidden">
-              <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/placeholder-z5zqa.png')",
-                  opacity: 0.15,
-                }}
-              ></div>
-              <div className="relative z-10 grid gap-8 md:grid-cols-2 items-center p-8">
+            <div className="relative rounded-xl overflow-hidden bg-stone-100">
+              <div className="grid gap-8 md:grid-cols-2 items-center p-8">
                 <div>
                   <div className="space-y-4">
                     <div className="inline-flex items-center rounded-md bg-amber-100 px-3 py-1">
@@ -92,21 +85,14 @@ export default function ProgramsPage() {
 
           {/* Housing Support Program */}
           <AnimatedSection animation="slide-up" delay={0.1}>
-            <div className="relative rounded-xl overflow-hidden">
-              <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/placeholder-xf3xs.png')",
-                  opacity: 0.15,
-                }}
-              ></div>
-              <div className="relative z-10 grid gap-8 md:grid-cols-2 items-center p-8">
+            <div className="relative rounded-xl overflow-hidden bg-stone-100">
+              <div className="grid gap-8 md:grid-cols-2 items-center p-8">
                 <div className="flex justify-center md:order-2">
                   <Image
-                    src="/placeholder-xf3xs.png"
+                    src="/2ac4e716-831f-44cc-a330-83c66aed8331.png"
                     width={400}
                     height={400}
-                    alt="Housing support program"
+                    alt="Safe and stable housing support program"
                     className="rounded-lg shadow-lg"
                   />
                 </div>
@@ -155,15 +141,8 @@ export default function ProgramsPage() {
 
           {/* Mentorship Program */}
           <AnimatedSection animation="slide-up" delay={0.2}>
-            <div className="relative rounded-xl overflow-hidden">
-              <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: "url('/mentor-mentee-conversation.png')",
-                  opacity: 0.15,
-                }}
-              ></div>
-              <div className="relative z-10 grid gap-8 md:grid-cols-2 items-center p-8">
+            <div className="relative rounded-xl overflow-hidden bg-stone-100">
+              <div className="grid gap-8 md:grid-cols-2 items-center p-8">
                 <div>
                   <div className="space-y-4">
                     <div className="inline-flex items-center rounded-md bg-amber-100 px-3 py-1">

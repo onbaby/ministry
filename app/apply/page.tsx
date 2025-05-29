@@ -1,8 +1,8 @@
 import ApplicantForm from "@/components/applicant-form"
 
 export const metadata = {
-  title: "Apply for Assistance - Faith & Work Ministry",
-  description: "Submit your application to join our program for young men seeking a fresh start.",
+  title: "Apply for Assistance - 007 Ministry",
+  description: "Apply for our programs and start your journey to a better life through faith and work.",
 }
 
 export default function ApplyPage() {

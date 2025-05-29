@@ -11,10 +11,10 @@ export default function HomePage() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section with Background Image - Removed extra padding */}
       <section
-        className="relative w-full py-12 md:py-20 lg:py-28 xl:py-40 bg-cover bg-center bg-no-repeat"
+        className="relative w-full min-h-[80vh] flex items-center bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "linear-gradient(to right, rgba(245, 245, 244, 0.9), rgba(245, 245, 244, 0.7)), url('/hero-background.png')",
+            "linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('/pexels-ivan-samkov-9630189.jpg')",
         }}
       >
         <div className="container px-4 md:px-6 relative z-10">
@@ -24,10 +24,10 @@ export default function HomePage() {
                 <div className="inline-flex items-center rounded-full px-3 py-1 mb-2">
                   
                 </div>
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-stone-800">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
                   Rebuilding Lives Through<br className="sm:hidden" /> Faith and Work
                 </h1>
-                <p className="text-stone-700 md:text-xl max-w-2xl">
+                <p className="text-stone-100 md:text-xl max-w-2xl">
                   Connecting young men with housing, job training, and community support to revitalize the American
                   labor force.
                 </p>

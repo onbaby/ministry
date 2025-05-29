@@ -4,9 +4,8 @@ import HomeownerForm from "@/components/homeowner-form"
 import MentorForm from "@/components/mentor-form"
 
 export const metadata = {
-  title: "Volunteer & Partner - Faith & Work Ministry",
-  description:
-    "Offer your support as a business mentor, homeowner, or volunteer to help young men rebuild their lives.",
+  title: "Volunteer & Partner - 007 Ministry",
+  description: "Join our mission to help young men rebuild their lives through faith, work, and community.",
 }
 
 export default function VolunteerPage() {

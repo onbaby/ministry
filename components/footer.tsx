@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-stone-800">Faith & Work Ministry</h3>
+            <h3 className="text-lg font-bold text-stone-800">007 Ministry</h3>
             <p className="text-sm text-stone-600">Rebuilding lives through faith, work, and community.</p>
             <div className="flex space-x-4">
               <Link href="#" className="text-stone-600 hover:text-amber-600">
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-6 text-center text-sm text-stone-600">
-          <p>&copy; {new Date().getFullYear()} Faith & Work Ministry. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} 007 Ministry. All rights reserved.</p>
         </div>
       </div>
     </footer>

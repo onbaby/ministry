@@ -4,7 +4,7 @@ import { BookIcon as Bible, Heart, Users, Hammer, Shield } from "lucide-react"
 import AnimatedSection from "@/components/animated-section"
 
 export const metadata = {
-  title: "About Us - Faith & Work Ministry",
+  title: "About Us - 007 Ministry",
   description:
     "Learn about our mission, values, and the impact we're making in young men's lives through faith and work.",
 }
@@ -28,7 +28,7 @@ export default function AboutPage() {
               />
               <div className="space-y-4">
                 <p className="text-stone-600">
-                  Faith & Work Ministry was founded in 2015 by a group of Christian business owners and church leaders
+                  007 Ministry was founded in 2015 by a group of Christian business owners and church leaders
                   who saw a growing need to help young men find purpose and direction through meaningful work.
                 </p>
                 <p className="text-stone-600">
@@ -84,40 +84,42 @@ export default function AboutPage() {
                       <h3 className="font-bold text-stone-800">Compassionate Service</h3>
                       <p className="text-stone-600">
                         We approach each individual with compassion, recognizing their unique challenges and potential
-                        for growth.
+                        for growth through our support and guidance.
                       </p>
                     </div>
                   </CardContent>
                 </Card>
               </AnimatedSection>
-              <AnimatedSection animation="scale" delay={0.4}>
-                <Card className="bg-stone-50">
-                  <CardContent className="pt-6">
-                    <div className="flex flex-col items-center text-center space-y-2">
-                      <Users className="h-10 w-10 text-amber-600 mb-2" />
-                      <h3 className="font-bold text-stone-800">Community Partnership</h3>
-                      <p className="text-stone-600">
-                        We believe in the power of community. By connecting young men with mentors, employers, and
-                        housing providers, we create a network of support.
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </AnimatedSection>
-              <AnimatedSection animation="scale" delay={0.5} className="sm:col-span-2 lg:col-span-1">
-                <Card className="bg-stone-50">
-                  <CardContent className="pt-6">
-                    <div className="flex flex-col items-center text-center space-y-2">
-                      <Shield className="h-10 w-10 text-amber-600 mb-2" />
-                      <h3 className="font-bold text-stone-800">Accountability & Trust</h3>
-                      <p className="text-stone-600">
-                        We maintain high standards of accountability and trust, ensuring that all participants are
-                        reliable, trustworthy, and committed to personal growth.
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
-              </AnimatedSection>
+              <div className="lg:col-span-3 flex justify-center gap-6">
+                <AnimatedSection animation="scale" delay={0.4} className="w-full max-w-sm">
+                  <Card className="bg-stone-50">
+                    <CardContent className="pt-6">
+                      <div className="flex flex-col items-center text-center space-y-2">
+                        <Users className="h-10 w-10 text-amber-600 mb-2" />
+                        <h3 className="font-bold text-stone-800">Community Partnership</h3>
+                        <p className="text-stone-600">
+                          We believe in the power of community. By connecting young men with mentors, employers, and
+                          housing providers, we create a network of support.
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </AnimatedSection>
+                <AnimatedSection animation="scale" delay={0.5} className="w-full max-w-sm">
+                  <Card className="bg-stone-50">
+                    <CardContent className="pt-6">
+                      <div className="flex flex-col items-center text-center space-y-2">
+                        <Shield className="h-10 w-10 text-amber-600 mb-2" />
+                        <h3 className="font-bold text-stone-800">Accountability & Trust</h3>
+                        <p className="text-stone-600">
+                          We maintain high standards of accountability and trust, ensuring that all participants are
+                          reliable, trustworthy, and committed to personal growth.
+                        </p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </AnimatedSection>
+              </div>
             </div>
           </div>
         </AnimatedSection>

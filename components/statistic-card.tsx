@@ -14,7 +14,7 @@ interface StatisticCardProps {
 export default function StatisticCard({ icon, value, label, description }: StatisticCardProps) {
   return (
     <motion.div
-      className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md border-t-4 border-amber-500 hover:shadow-lg transition-shadow"
+      className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md border-t-4 border-amber-500 hover:shadow-lg transition-shadow h-[280px]"
       whileHover={{ y: -5 }}
       transition={{ duration: 0.3 }}
     >
@@ -23,7 +23,7 @@ export default function StatisticCard({ icon, value, label, description }: Stati
         <AnimatedCounter value={value} />
       </h3>
       <p className="text-amber-700 font-medium mb-2">{label}</p>
-      {description && <p className="text-stone-600 text-sm text-center mt-2">{description}</p>}
+      {description && <p className="text-stone-600 text-sm text-center mt-2 flex-grow">{description}</p>}
     </motion.div>
   )
 }

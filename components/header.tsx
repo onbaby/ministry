@@ -43,7 +43,7 @@ const Header = memo(function Header() {
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           >
-            Faith & Work
+            007 Ministry
           </motion.span>
         </Link>
         <nav className="hidden md:flex gap-6">

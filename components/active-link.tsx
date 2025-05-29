@@ -45,8 +45,10 @@ const ActiveLink = memo(function ActiveLink({
       {isActive && !skipActiveStyle && (
         <motion.span
           className="absolute -bottom-1.5 left-0 right-0 h-0.5 bg-amber-600"
-          layoutId="navUnderline"
-          transition={{ duration: 0.3, type: "spring", stiffness: 300, damping: 30 }}
+          initial={{ opacity: 0, scaleX: 0 }}
+          animate={{ opacity: 1, scaleX: 1 }}
+          exit={{ opacity: 0, scaleX: 0 }}
+          transition={{ duration: 0.2, ease: "easeInOut" }}
         />
       )}
     </Link>

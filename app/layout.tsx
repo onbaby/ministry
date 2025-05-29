@@ -8,7 +8,7 @@ import { Header, PageTransition } from "./components/dynamic-imports"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Faith & Work Ministry - Rebuilding Lives Through Labor",
+  title: "007 Ministry - Rebuilding Lives Through Labor",
   description:
     "Connecting young men with housing, job training, and community support to revitalize the American labor force.",
     generator: 'v0.dev'

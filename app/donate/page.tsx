@@ -4,7 +4,7 @@ import { Heart, DollarSign, Calendar, Award } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Donate - Faith & Work Ministry",
+  title: "Donate - 007 Ministry",
   description: "Support our mission to help young men rebuild their lives through faith, work, and community.",
 }
 
@@ -106,7 +106,7 @@ export default function DonatePage() {
             <div className="space-y-2">
               <h3 className="font-bold text-stone-800">By Check</h3>
               <p className="text-stone-600">
-                Make checks payable to "Faith & Work Ministry" and mail to:
+                Make checks payable to "007 Ministry" and mail to:
                 <br />
                 123 Ministry Lane
                 <br />
@@ -126,7 +126,7 @@ export default function DonatePage() {
         </div>
 
         <div className="text-center text-stone-600 text-sm">
-          <p>Faith & Work Ministry is a 501(c)(3) nonprofit organization. All donations are tax-deductible.</p>
+          <p>007 Ministry is a 501(c)(3) nonprofit organization. All donations are tax-deductible.</p>
         </div>
       </div>
     </div>
