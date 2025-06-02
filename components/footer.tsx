@@ -74,11 +74,11 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2 text-stone-600">
                 <Mail className="h-4 w-4 text-amber-600" />
-                <span>info@faithandwork.org</span>
+                <span>007ministries@gmail.com</span>
               </li>
               <li className="flex items-center gap-2 text-stone-600">
                 <Phone className="h-4 w-4 text-amber-600" />
-                <span>(555) 123-4567</span>
+                <span>+1 (678) 906-7100</span>
               </li>
             </ul>
           </div>

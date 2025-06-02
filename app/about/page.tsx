@@ -6,7 +6,7 @@ import AnimatedSection from "@/components/animated-section"
 export const metadata = {
   title: "About Us - 007 Ministry",
   description:
-    "Learn about our mission, values, and the impact we're making in young men's lives through faith and work.",
+    "Learn about our mission, values, and the impact we're making in young people's lives through faith and work.",
 }
 
 export default function AboutPage() {
@@ -20,7 +20,7 @@ export default function AboutPage() {
             </h1>
             <div className="grid gap-8 md:grid-cols-2 items-center">
               <Image
-                src="/placeholder-5usrd.png"
+                src="/20250602_1647_Smiling in Orange Shirt_remix_01jws68zv3e66t5g2mg37mp8nb.png"
                 width={400}
                 height={400}
                 alt="Our ministry team and participants"
@@ -28,16 +28,13 @@ export default function AboutPage() {
               />
               <div className="space-y-4">
                 <p className="text-stone-600">
-                  007 Ministry was founded in 2015 by a group of Christian business owners and church leaders
-                  who saw a growing need to help young men find purpose and direction through meaningful work.
+                  007 Ministry was founded around 2000 by John Ingram, a small business owner working to build associates for his business team in North Georgia.
                 </p>
                 <p className="text-stone-600">
-                  What began as a small mentorship program has grown into a comprehensive ministry that provides
-                  housing, job training, and spiritual guidance to young men seeking a fresh start.
+                  What began as John's vision to develop young people through structured business mentorship has evolved into a comprehensive four-phase program that guides participants from initial hiring and training all the way to launching their own businesses.
                 </p>
                 <p className="text-stone-600">
-                  Today, we've helped hundreds of young men rebuild their lives, revitalize their communities, and
-                  restore the dignity that comes from honest work and faithful living.
+                  Over the years, we've helped countless young people not only develop valuable skills and character, but ultimately achieve the independence and fulfillment that comes from entrepreneurship and business ownership.
                 </p>
               </div>
             </div>
@@ -49,75 +46,60 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-center text-stone-800">Our Core Values</h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <AnimatedSection animation="scale" delay={0.1}>
-                <Card className="bg-stone-50">
-                  <CardContent className="pt-6">
-                    <div className="flex flex-col items-center text-center space-y-2">
-                      <Bible className="h-10 w-10 text-amber-600 mb-2" />
-                      <h3 className="font-bold text-stone-800">Faith-Centered</h3>
-                      <p className="text-stone-600">
-                        We believe that spiritual growth is essential to personal transformation. Our programs are
-                        rooted in Christian principles and values.
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <div className="flex flex-col items-center text-center p-6 bg-stone-50 rounded-lg h-48 justify-between">
+                  <div className="flex flex-col items-center">
+                    <Bible className="h-10 w-10 text-amber-600 mb-3" />
+                    <h3 className="font-bold text-stone-800 mb-2">Faith-Centered</h3>
+                    <p className="text-stone-600 text-sm">
+                      Programs rooted in Christian principles for spiritual growth and personal transformation.
+                    </p>
+                  </div>
+                </div>
               </AnimatedSection>
               <AnimatedSection animation="scale" delay={0.2}>
-                <Card className="bg-stone-50">
-                  <CardContent className="pt-6">
-                    <div className="flex flex-col items-center text-center space-y-2">
-                      <Hammer className="h-10 w-10 text-amber-600 mb-2" />
-                      <h3 className="font-bold text-stone-800">Dignity of Work</h3>
-                      <p className="text-stone-600">
-                        We believe in the inherent dignity and value of work. Through meaningful labor, young men
-                        develop skills, character, and purpose.
-                      </p>
-                    </div>
-                  </CardContent>
-                </Card>
+                <div className="flex flex-col items-center text-center p-6 bg-stone-50 rounded-lg h-48 justify-between">
+                  <div className="flex flex-col items-center">
+                    <Hammer className="h-10 w-10 text-amber-600 mb-3" />
+                    <h3 className="font-bold text-stone-800 mb-2">Dignity of Work</h3>
+                    <p className="text-stone-600 text-sm">
+                      Building character, skills, and purpose through meaningful labor and hands-on experience.
+                    </p>
+                  </div>
+                </div>
               </AnimatedSection>
               <AnimatedSection animation="scale" delay={0.3}>
-                <Card className="bg-stone-50">
-                  <CardContent className="pt-6">
-                    <div className="flex flex-col items-center text-center space-y-2">
-                      <Heart className="h-10 w-10 text-amber-600 mb-2" />
-                      <h3 className="font-bold text-stone-800">Compassionate Service</h3>
-                      <p className="text-stone-600">
-                        We approach each individual with compassion, recognizing their unique challenges and potential
-                        for growth through our support and guidance.
+                <div className="flex flex-col items-center text-center p-6 bg-stone-50 rounded-lg h-48 justify-between">
+                  <div className="flex flex-col items-center">
+                    <Heart className="h-10 w-10 text-amber-600 mb-3" />
+                    <h3 className="font-bold text-stone-800 mb-2">Compassionate Service</h3>
+                    <p className="text-stone-600 text-sm">
+                      Approaching each individual with compassion and recognizing their unique potential.
+                    </p>
+                  </div>
+                </div>
+              </AnimatedSection>
+              <div className="lg:col-span-3 flex flex-col sm:flex-row justify-center gap-6">
+                <AnimatedSection animation="scale" delay={0.4} className="w-full max-w-sm">
+                  <div className="flex flex-col items-center text-center p-6 bg-stone-50 rounded-lg h-48 justify-between">
+                    <div className="flex flex-col items-center">
+                      <Users className="h-10 w-10 text-amber-600 mb-3" />
+                      <h3 className="font-bold text-stone-800 mb-2">Community Partnership</h3>
+                      <p className="text-stone-600 text-sm">
+                        Connecting participants with mentors, employers, and housing providers for lasting support.
                       </p>
                     </div>
-                  </CardContent>
-                </Card>
-              </AnimatedSection>
-              <div className="lg:col-span-3 flex justify-center gap-6">
-                <AnimatedSection animation="scale" delay={0.4} className="w-full max-w-sm">
-                  <Card className="bg-stone-50">
-                    <CardContent className="pt-6">
-                      <div className="flex flex-col items-center text-center space-y-2">
-                        <Users className="h-10 w-10 text-amber-600 mb-2" />
-                        <h3 className="font-bold text-stone-800">Community Partnership</h3>
-                        <p className="text-stone-600">
-                          We believe in the power of community. By connecting young men with mentors, employers, and
-                          housing providers, we create a network of support.
-                        </p>
-                      </div>
-                    </CardContent>
-                  </Card>
+                  </div>
                 </AnimatedSection>
                 <AnimatedSection animation="scale" delay={0.5} className="w-full max-w-sm">
-                  <Card className="bg-stone-50">
-                    <CardContent className="pt-6">
-                      <div className="flex flex-col items-center text-center space-y-2">
-                        <Shield className="h-10 w-10 text-amber-600 mb-2" />
-                        <h3 className="font-bold text-stone-800">Accountability & Trust</h3>
-                        <p className="text-stone-600">
-                          We maintain high standards of accountability and trust, ensuring that all participants are
-                          reliable, trustworthy, and committed to personal growth.
-                        </p>
-                      </div>
-                    </CardContent>
-                  </Card>
+                  <div className="flex flex-col items-center text-center p-6 bg-stone-50 rounded-lg h-48 justify-between">
+                    <div className="flex flex-col items-center">
+                      <Shield className="h-10 w-10 text-amber-600 mb-3" />
+                      <h3 className="font-bold text-stone-800 mb-2">Accountability & Trust</h3>
+                      <p className="text-stone-600 text-sm">
+                        Maintaining high standards to ensure participants are reliable and committed to growth.
+                      </p>
+                    </div>
+                  </div>
                 </AnimatedSection>
               </div>
             </div>
@@ -130,7 +112,7 @@ export default function AboutPage() {
             <div className="space-y-4">
               <p className="text-stone-600">
                 Our comprehensive approach addresses the whole person - mind, body, and spirit. We believe that
-                sustainable change requires attention to all aspects of a young man's life:
+                sustainable change requires attention to all aspects of a young person's life:
               </p>
               <div className="grid gap-4 md:grid-cols-2">
                 <AnimatedSection animation="slide-right" delay={0.1}>
@@ -175,42 +157,63 @@ export default function AboutPage() {
 
         <AnimatedSection animation="fade">
           <div className="space-y-6">
-            <h2 className="text-2xl font-bold text-center text-stone-800">Our Certification Process</h2>
+            <h2 className="text-2xl font-bold text-center text-stone-800">Our Four-Phase Development Process</h2>
             <p className="text-stone-600 text-center">
-              We maintain high standards for all program participants to ensure trust and reliability:
+              Our proven four-phase program guides participants from initial hiring to launching their own businesses:
             </p>
-            <div className="grid gap-4 md:grid-cols-3">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
               <AnimatedSection animation="slide-up" delay={0.1}>
-                <div className="flex flex-col items-center text-center p-4">
+                <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm border border-stone-100">
                   <div className="bg-amber-100 rounded-full h-12 w-12 flex items-center justify-center mb-4">
                     <span className="text-amber-700 font-bold">1</span>
                   </div>
-                  <h3 className="font-bold text-stone-800 mb-2">Application & Screening</h3>
+                  <h3 className="font-bold text-stone-800 mb-2">Hire & Train</h3>
                   <p className="text-stone-600">
-                    Thorough application process and initial interviews to assess commitment and fit.
+                    Join our team and develop essential skills through hands-on experience.
                   </p>
                 </div>
               </AnimatedSection>
               <AnimatedSection animation="slide-up" delay={0.2}>
-                <div className="flex flex-col items-center text-center p-4">
+                <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm border border-stone-100">
                   <div className="bg-amber-100 rounded-full h-12 w-12 flex items-center justify-center mb-4">
                     <span className="text-amber-700 font-bold">2</span>
                   </div>
-                  <h3 className="font-bold text-stone-800 mb-2">Background Verification</h3>
+                  <h3 className="font-bold text-stone-800 mb-2">Mentor & Advise</h3>
                   <p className="text-stone-600">
-                    Comprehensive background checks and reference verification for all participants.
+                    Receive personalized guidance to build leadership and business skills.
                   </p>
                 </div>
               </AnimatedSection>
               <AnimatedSection animation="slide-up" delay={0.3}>
-                <div className="flex flex-col items-center text-center p-4">
+                <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm border border-stone-100">
                   <div className="bg-amber-100 rounded-full h-12 w-12 flex items-center justify-center mb-4">
                     <span className="text-amber-700 font-bold">3</span>
                   </div>
-                  <h3 className="font-bold text-stone-800 mb-2">Skills Certification</h3>
+                  <h3 className="font-bold text-stone-800 mb-2">Fund & Support</h3>
                   <p className="text-stone-600">
-                    Participants earn certifications in their trade areas and receive character references.
+                    Access small business loans and expert advice to then launch your venture.
                   </p>
+                </div>
+              </AnimatedSection>
+              <AnimatedSection animation="slide-up" delay={0.4}>
+                <div className="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-sm border border-stone-100 relative overflow-hidden">
+                  <div className="bg-amber-100 rounded-full h-12 w-12 flex items-center justify-center mb-4">
+                    <span className="text-amber-700 font-bold">4</span>
+                  </div>
+                  <h3 className="font-bold text-stone-800 mb-2">Launch & Succeed</h3>
+                  <p className="text-stone-600">
+                    Graduate to business ownership with ongoing alumni network support.
+                  </p>
+                  {/* Floating Rocket */}
+                  <div className="absolute bottom-2 right-2">
+                    <Image
+                      src="/free-rocket-icon-3424-thumb.png"
+                      width={24}
+                      height={24}
+                      alt="Launch rocket"
+                      className="opacity-80 animate-float"
+                    />
+                  </div>
                 </div>
               </AnimatedSection>
             </div>

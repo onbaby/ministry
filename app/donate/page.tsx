@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Donate - 007 Ministry",
-  description: "Support our mission to help young men rebuild their lives through faith, work, and community.",
+  description: "Support our mission to help young people rebuild their lives through faith, work, and community.",
 }
 
 export default function DonatePage() {
@@ -16,8 +16,9 @@ export default function DonatePage() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-stone-800">
             Support Our Mission
           </h1>
-          <p className="mx-auto max-w-[700px] text-stone-600 md:text-xl">
-            Your generous donation helps young men rebuild their lives through faith, work, and community.
+          <p className="text-stone-600 max-w-3xl mx-auto">
+            Your generous donation helps young people rebuild their lives through faith, work, and community.
+            Every contribution makes a lasting impact.
           </p>
         </div>
 

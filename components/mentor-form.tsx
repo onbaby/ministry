@@ -122,8 +122,8 @@ export default function MentorForm() {
           </div>
           <p className="text-stone-600">
             If you have any questions, please contact our mentorship team at{" "}
-            <a href="mailto:mentors@faithandwork.org" className="text-amber-600 hover:underline">
-              mentors@faithandwork.org
+            <a href="mailto:007ministries@gmail.com" className="text-amber-600 hover:underline">
+              007ministries@gmail.com
             </a>
           </p>
         </CardContent>
@@ -194,7 +194,7 @@ export default function MentorForm() {
                 <FormItem>
                   <FormLabel>Phone Number</FormLabel>
                   <FormControl>
-                    <Input placeholder="(555) 123-4567" {...field} />
+                    <Input placeholder="+1 (678) 906-7100" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -234,7 +234,7 @@ export default function MentorForm() {
                 <FormLabel>Relevant Experience</FormLabel>
                 <FormControl>
                   <Textarea
-                    placeholder="Describe your relevant experience and skills that would benefit young men in our program..."
+                    placeholder="Describe your relevant experience and skills that would benefit young people in our program..."
                     className="min-h-[120px]"
                     {...field}
                   />

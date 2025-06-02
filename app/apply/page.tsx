@@ -20,7 +20,7 @@ export default function ApplyPage() {
         <div className="space-y-4 rounded-lg border p-6 bg-white">
           <div className="space-y-2">
             <h2 className="text-xl font-bold text-stone-800">Program Eligibility</h2>
-            <p className="text-stone-600">Our program is designed for young men who are:</p>
+            <p className="text-stone-600">Our program is designed for young people who are:</p>
             <ul className="list-disc pl-5 text-stone-600 space-y-1">
               <li>Between the ages of 18-30</li>
               <li>Committed to personal growth and development</li>

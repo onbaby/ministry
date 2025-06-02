@@ -1,17 +1,18 @@
 import type React from "react"
-import { Inter } from "next/font/google"
 import "./globals.css"
 import Footer from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Header, PageTransition } from "./components/dynamic-imports"
+import { Metadata } from "next"
 
-const inter = Inter({ subsets: ["latin"] })
-
-export const metadata = {
-  title: "007 Ministry - Rebuilding Lives Through Labor",
+export const metadata: Metadata = {
+  title: {
+    default: "007 Ministry - Faith & Work",
+    template: "%s | 007 Ministry",
+  },
   description:
-    "Connecting young men with housing, job training, and community support to revitalize the American labor force.",
-    generator: 'v0.dev'
+    "Connecting young people with housing, job training, and community support to revitalize the American labor force.",
+  keywords: "ministry, faith, work, job training, housing, young adults, community support",
 }
 
 export default function RootLayout({
@@ -21,7 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Oxanium:wght@200..800&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet" />
+      </head>
+      <body className="font-blinker">
         <ThemeProvider attribute="class" defaultTheme="light">
           {/* Fixed header container */}
           <div id="persistent-header">

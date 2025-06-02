@@ -125,8 +125,8 @@ export default function HomeownerForm() {
           </div>
           <p className="text-stone-600">
             If you have any questions, please contact our housing team at{" "}
-            <a href="mailto:housing@faithandwork.org" className="text-amber-600 hover:underline">
-              housing@faithandwork.org
+            <a href="mailto:007ministries@gmail.com" className="text-amber-600 hover:underline">
+              007ministries@gmail.com
             </a>
           </p>
         </CardContent>
@@ -183,7 +183,7 @@ export default function HomeownerForm() {
               <FormItem>
                 <FormLabel>Phone Number</FormLabel>
                 <FormControl>
-                  <Input placeholder="(555) 123-4567" {...field} />
+                  <Input placeholder="+1 (678) 906-7100" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>

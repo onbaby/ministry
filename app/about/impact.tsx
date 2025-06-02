@@ -15,9 +15,9 @@ export default function ImpactSection() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-stone-800 mb-4">
               Transforming Lives and Communities
             </h2>
-            <p className="max-w-2xl mx-auto text-stone-600">
-              Our work has made a meaningful difference in the lives of young men and the communities they serve. Here
-              are some of their stories:
+            <p className="text-stone-600 max-w-3xl mx-auto">
+              Our work has made a meaningful difference in the lives of young people and the communities they serve. Here
+              are some of the ways we're creating lasting change.
             </p>
           </div>
         </AnimatedSection>
@@ -42,7 +42,7 @@ export default function ImpactSection() {
             delay={0.3}
           />
           <ImpactTestimonial
-            quote="Mentoring these young men has been as transformative for me as it has been for them. The spiritual growth I've witnessed is incredible."
+            quote="Mentoring these young people has been as transformative for me as it has been for them. The spiritual growth I've witnessed is incredible."
             name="Pastor Robert"
             role="Mentor"
             delay={0.4}
@@ -58,7 +58,7 @@ export default function ImpactSection() {
                   <Users className="h-6 w-6 text-amber-600" />
                 </div>
                 <p className="text-2xl font-bold text-stone-800">250+</p>
-                <p className="text-sm text-stone-600">Young Men Helped</p>
+                <p className="text-sm text-stone-600">Young People Helped</p>
               </div>
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 mb-2">

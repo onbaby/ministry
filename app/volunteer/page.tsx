@@ -4,8 +4,8 @@ import HomeownerForm from "@/components/homeowner-form"
 import MentorForm from "@/components/mentor-form"
 
 export const metadata = {
-  title: "Volunteer & Partner - 007 Ministry",
-  description: "Join our mission to help young men rebuild their lives through faith, work, and community.",
+  title: "Volunteer",
+  description: "Join our mission to help young people rebuild their lives through faith, work, and community.",
 }
 
 export default function VolunteerPage() {
@@ -16,8 +16,9 @@ export default function VolunteerPage() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-stone-800">
             Partner With Us
           </h1>
-          <p className="mx-auto max-w-[700px] text-stone-600 md:text-xl">
-            Join our mission by offering opportunities, housing, or mentorship to young men seeking a fresh start.
+          <p className="text-stone-600 max-w-3xl mx-auto">
+            Join our mission by offering opportunities, housing, or mentorship to young people seeking a fresh start.
+            Together, we can help transform lives and strengthen our community.
           </p>
         </div>
 
@@ -49,6 +50,15 @@ export default function VolunteerPage() {
                   for rent, a garage apartment, or other living space. All participants are vetted and certified through
                   our program.
                 </p>
+                <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
+                  <h3 className="font-bold text-amber-800 mb-2">💰 Special Benefit for Homeowners</h3>
+                  <p className="text-amber-800">
+                    <strong>Save money on home repairs!</strong> As a homeowner partner, you'll receive discounted rates when you hire our skilled contractors and program participants for home improvement projects, repairs, and maintenance work.
+                  </p>
+                  <p className="text-amber-700 text-sm mt-2">
+                    Our trained participants work under the supervision of experienced contractors, providing quality work at reduced costs while gaining valuable hands-on experience.
+                  </p>
+                </div>
               </div>
               <HomeownerForm />
             </div>
@@ -59,7 +69,7 @@ export default function VolunteerPage() {
                 <h2 className="text-xl font-bold text-stone-800">Mentors</h2>
                 <p className="text-stone-600">
                   Mentors provide guidance, support, and wisdom to our program participants. Share your life experience,
-                  professional knowledge, and faith journey to help young men grow.
+                  professional knowledge, and faith journey to help young people grow.
                 </p>
               </div>
               <MentorForm />

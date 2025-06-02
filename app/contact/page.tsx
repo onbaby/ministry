@@ -75,14 +75,14 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-amber-600 mt-0.5" />
                   <div>
                     <h3 className="font-bold text-stone-800">Email</h3>
-                    <p className="text-stone-600">info@faithandwork.org</p>
+                    <p className="text-stone-600">007ministries@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <Phone className="h-5 w-5 text-amber-600 mt-0.5" />
                   <div>
                     <h3 className="font-bold text-stone-800">Phone</h3>
-                    <p className="text-stone-600">(555) 123-4567</p>
+                    <p className="text-stone-600">+1 (678) 906-7100</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
